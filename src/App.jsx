@@ -64,36 +64,44 @@ function App() {
           }}>View My Work</a>
         </section>
 
-        {/* 3. PROJECTS SECTION */}
-        <section id="projects" style={{ padding: "80px 8%", backgroundColor: COLORS.section }}>
-          <h2 style={{ fontSize: "32px", fontWeight: "800", marginBottom: "40px" }}>Selected Projects</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "30px" }}>
-            <div style={{
-              backgroundColor: "#fff",
-              padding: "40px",
-              borderRadius: "24px",
-              border: `1px solid ${COLORS.border}`,
-              boxShadow: "0 10px 30px rgba(0,0,0,0.02)"
-            }}>
-              <h3 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "15px" }}>Expense Tracker</h3>
-              <p style={{ color: COLORS.textMuted, marginBottom: "25px" }}>
-                A sophisticated financial dashboard built with React and Chart.js for real-time analytics.
-              </p>
-              <a href="https://expense-tracker-jade-ten-20.vercel.app" target="_blank" rel="noreferrer" style={{
-                color: COLORS.accent,
-                textDecoration: "none",
-                fontWeight: "bold",
-                borderBottom: `2px solid ${COLORS.accent}`
-              }}>LIVE DEMO →</a>
-            </div>
-          </div>
-        </section>
+  {/* 3. PROJECTS SECTION */}
+<section id="projects" style={{ padding: "80px 8%", backgroundColor: COLORS.section }}>
+  <h2 style={{ fontSize: "32px", fontWeight: "800", marginBottom: "40px" }}>Selected Projects</h2>
+  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "30px" }}>
+    <div style={{
+      backgroundColor: "#fff",
+      padding: "40px",
+      borderRadius: "24px",
+      border: `1px solid ${COLORS.border}`,
+      boxShadow: "0 10px 30px rgba(0,0,0,0.02)"
+    }}>
+      <h3 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "15px" }}>MyProject</h3>
+      <p style={{ color: COLORS.textMuted, marginBottom: "25px" }}>
+        A sophisticated financial dashboard built with React and Node.js for real-time analytics.
+      </p>
+      <div style={{ display: "flex", gap: "20px" }}>
+        <a href="https://expense-tracker-jade-ten-20.vercel.app" target="_blank" rel="noreferrer" style={{
+          color: COLORS.accent,
+          textDecoration: "none",
+          fontWeight: "bold",
+          borderBottom: `2px solid ${COLORS.accent}`
+        }}>FinanceCore#1 →</a> 
+        <a href="https://portfolio-green-rho-93.vercel.app/" target="_blank" rel="noreferrer" style={{
+          color: COLORS.accent,
+          textDecoration: "none",
+          fontWeight: "bold",
+          borderBottom: `2px solid ${COLORS.accent}`
+        }}>PRANAY.DEV#2 →</a>
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* 4. SKILLS SECTION */}
         <section id="skills" style={{ padding: "100px 8%", textAlign: "center" }}>
           <h2 style={{ fontSize: "28px", fontWeight: "800", marginBottom: "40px" }}>Tech Stack</h2>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-            {["React", "Node.js", "Python", "Html", "CSS", "JavaScript", ].map(skill => (
+            {["React", "Node.js", "Python", "Html", "CSS", "JavaScript", ""].map(skill => (
               <span key={skill} style={{
                 padding: "12px 24px",
                 backgroundColor: COLORS.bg,
@@ -139,7 +147,7 @@ function App() {
 
       {/* 5. FOOTER */}
       <footer style={{ textAlign: "center", padding: "50px", borderTop: `1px solid ${COLORS.border}`, color: COLORS.textMuted }}>
-        © PRANAY.DEV | BUILT WITH PASSION
+        © PRANAY.DE| BUILT WITH PASSION
       </footer>
     </div>
   );
