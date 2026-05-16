@@ -91,7 +91,14 @@ function App() {
           textDecoration: "none",
           fontWeight: "bold",
           borderBottom: `2px solid ${COLORS.accent}`
-        }}>PRANAY.DEV#2 →</a>
+        }}
+        >PRANAY.DEV#2 →</a>
+        <a href="https://pranay-ai-ansqktri2l9crz2qrnpwup.streamlit.app/" target="_blank" rel="noreferrer" style={{
+          color: COLORS.accent,
+          textDecoration: "none",
+          fontWeight: "bold",
+          borderBottom: `2px solid ${COLORS.accent}`
+        }}>Pranay.AI#3 →</a> 
       </div>
     </div>
   </div>
@@ -140,6 +147,22 @@ function App() {
               fontWeight: "700"
             }}>
               pranaytembhurkar007@email.com
+            </a>
+          </div>
+          <div style={{
+            display: "inline-block",
+            padding: "25px 45px",
+            borderRadius: "100px",
+            backgroundColor: COLORS.section,
+            border: `1px solid ${COLORS.border}`
+          }}>
+            <a href="mailto:7249647452" style={{
+              fontSize: "20px",
+              color: COLORS.textMain,
+              textDecoration: "none",
+              fontWeight: "700"
+            }}>
+              +917249647452
             </a>
           </div>
         </section>
